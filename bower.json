@@ -1,0 +1,14 @@
+{
+  "name": "divine-font",
+  "version": "1.0.0",
+  "authors": [
+    "Cameron Hunter <hello@cameronhunter.co.uk>"
+  ],
+  "ignore": [
+    ".gitignore",
+    "Gruntfile.js",
+    "package.json",
+    "src/",
+    "templates/"
+  ]
+}

@@ -9,7 +9,6 @@
     "grunt": "~0.4.1",
     "grunt-bump": "latest",
     "grunt-contrib-clean": "latest",
-    "grunt-contrib-copy": "latest",
     "grunt-svgmin": "latest",
     "grunt-webfont": "latest",
     "matchdep": "latest"
