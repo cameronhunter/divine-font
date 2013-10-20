@@ -1,0 +1,36 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" >
+<!--
+2013-10-19: Created.
+-->
+<svg xmlns="http://www.w3.org/2000/svg">
+<metadata>
+Created by FontForge 20110222 at Sat Oct 19 23:20:15 2013
+ By Cameron Hunter,,,
+Created by Cameron Hunter,,, with FontForge 2.0 (http://fontforge.sf.net)
+</metadata>
+<defs>
+<font id="divine-font" horiz-adv-x="220" >
+  <font-face 
+    font-family="divine-font"
+    font-weight="500"
+    font-stretch="normal"
+    units-per-em="512"
+    panose-1="2 0 6 3 0 0 0 0 0 0"
+    ascent="448"
+    descent="-64"
+    bbox="-0.25 -64.6613 256 448.661"
+    underline-thickness="25.6"
+    underline-position="-51.2"
+    unicode-range="U+F100-F102"
+  />
+    <missing-glyph />
+    <glyph glyph-name="uniF100" unicode="&#xf100;" horiz-adv-x="256" 
+d="M229 440c15 15 27 10 27 -11v-474c0 -21 -12 -26 -27 -11l-138 138h-91v220h91z" />
+    <glyph glyph-name="uniF101" unicode="&#xf101;" 
+d="M220 131v-49h-49l-61 62l-61 -62h-49v49l61 61l-61 61v49h49l61 -61l61 61h49v-49l-62 -61z" />
+    <glyph glyph-name="uniF102" unicode="&#xf102;" 
+d="M28 62c-7 0 -15 3 -20 8c-11 11 -11 28 0 39c47 47 47 124 0 171c-11 11 -11 28 0 39s28 11 39 0c69 -69 69 -180 0 -249c-5 -5 -12 -8 -19 -8zM127 9c-7 0 -15 4 -20 9c-11 11 -11 28 0 39c76 76 76 199 0 275c-11 11 -11 28 0 39s28 11 39 0c47 -47 74 -109 74 -176
+s-27 -130 -74 -177c-5 -5 -12 -9 -19 -9z" />
+  </font>
+</defs></svg>
