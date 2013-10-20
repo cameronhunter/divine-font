@@ -63,9 +63,9 @@ module.exports = function(grunt) {
   grunt.registerTask("default", ["build"]);
 
   grunt.registerTask("build", [
-    "clean:release",
-    "svgmin:build",
-    "webfont:build",
+    "clean",
+    "svgmin",
+    "webfont",
     "clean:temp"
   ]);
 };
