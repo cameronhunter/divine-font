@@ -13,13 +13,13 @@ module.exports = function(grunt) {
         files: ["package.json", "bower.json"],
         commit: true,
         commitMessage: "Release v%VERSION%",
-        commitFiles: ["-a"], // "-a" for all files
+        commitFiles: ["-a"],
         createTag: true,
         tagName: "v%VERSION%",
         tagMessage: "Version %VERSION%",
         push: true,
         pushTo: "origin",
-        gitDescribeOptions: "--tags --always --abbrev=1 --dirty=-d" // options to use with "$ git describe"
+        gitDescribeOptions: "--tags --always --abbrev=1 --dirty=-d"
       }
     },
 
@@ -28,32 +28,12 @@ module.exports = function(grunt) {
       temp: "<%= temp %>"
     },
 
-    svgmin: {
-      options: {
-        plugins: [{
-          removeViewBox: false
-        }]
-      },
+    fontfactory: {
       build: {
-        files: [{
-          expand: true,
-          cwd: "<%= source %>",
-          src: ["**/*.svg"],
-          dest: "<%= temp %>"
-        }]
-      }
-    },
-
-    webfont: {
-      build: {
-        src: ["<%= temp %>/**/*.svg", "<%= source %>/**/*.eps"],
-        dest: "<%= release %>/fonts",
-        destCss: "<%= release %>",
+        src: "<%= source %>/**/*.svg",
+        dest: "<%= release %>",
         options: {
-          font: "<%= pkg.name %>",
-          syntax: "suit",
-          template: "./templates/suit.css",
-          hashes: false
+          font: "<%= pkg.name %>"
         }
       }
     }
@@ -64,8 +44,7 @@ module.exports = function(grunt) {
 
   grunt.registerTask("build", [
     "clean",
-    "svgmin",
-    "webfont",
+    "fontfactory",
     "clean:temp"
   ]);
 };
