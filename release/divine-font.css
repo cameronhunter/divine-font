@@ -1,0 +1,33 @@
+@font-face {
+  font-family: 'divine-font';
+  src: url('divine-font.eot');
+  src: url('divine-font.eot?#divine-font') format('embedded-opentype'),
+       url('divine-font.woff') format('woff'),
+       url('divine-font.ttf') format('truetype'),
+       url('divine-font.svg?#divine-font') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.Icon {
+  display: inline;
+  font-family: 'divine-font';
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.Icon--mute:before {
+  content: '\e001';
+}
+
+.Icon--sound:before {
+  content: '\e002';
+}
+
+.Icon--speaker:before {
+  content: '\e003';
+}
+
